@@ -19,8 +19,6 @@ console.log(intro + favNumber + ".");
 // * Create a variable with the value of "1005". Convert it to a number.
 // * Create a variable with the value of "10.05". Convert it to a number. 
 const stringInt = "1005";
-parseInt(stringInt);
 const stringFloat = "10.05";
-parseFloat(stringFloat)
-console.log(stringInt);
-console.log(stringFloat);
+console.log(parseInt(stringInt));
+console.log(parseFloat(stringFloat));
